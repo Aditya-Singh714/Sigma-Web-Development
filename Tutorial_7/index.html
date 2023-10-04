@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+
+<body>
+    <h1>Form to apply for Sigma Web Development cousre -TA</h1>
+    <form action="">
+        <!--Form tag is used to create a form-->
+        <!-- This is the input field where user can enter their details -->
+
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username here...">
+        </div>
+
+        <div>
+            <!--This is an example of radio button-->
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <!-- This ia an example of checkbox -->
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe for more Sigma Web Dev Videos</label>
+        </div>
+
+        <div>
+            <!-- This is an example of textarea -->
+            <textarea name="comment" id="comment" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div>
+            <!-- This is an example of select tag -->
+            <label for="language">Choose your favourite language</label>
+
+            <select name="language" id="language">
+                <option value="choose">Choose language</option>
+                <option value="html">HTML</option>
+                <option value="js">JavaScript</option>
+                <option value="react">React.js</option>
+                <option value="c++">C++</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>

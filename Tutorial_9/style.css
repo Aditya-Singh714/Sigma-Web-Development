@@ -1,0 +1,16 @@
+.red{
+    color: red;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+#firstdiv{
+    background-color: aquamarine;
+}
+
+#seconddiv{
+    color: burlywood;
+    background-color: blueviolet;
+}
